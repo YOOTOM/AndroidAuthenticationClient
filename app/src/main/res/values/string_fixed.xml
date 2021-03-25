@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="key_accessToken" translatable="false">accessToken</string>
+    <string name="key_refreshToken" translatable="false">refreshToken</string>
+    <string name="key_idToken" translatable="false">idToken</string>
+    <string name="key_accessTokenExpirationTime" translatable="false">accessTokenExpirationTime</string>
+</resources>

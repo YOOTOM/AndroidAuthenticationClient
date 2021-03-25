@@ -1,0 +1,99 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>LoginProcess - app</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">app</a>&nbsp;/&nbsp;<a href="../index.html">com.anibear.andauthclientproject</a>&nbsp;/&nbsp;<a href="./index.html">LoginProcess</a><br/>
+<br/>
+<h1>LoginProcess</h1>
+<code><span class="keyword">class </span><span class="identifier">LoginProcess</span></code>
+<p>회원 로그인 함수를 제공합니다.</p>
+<p><strong>Author</strong><br/>
+yootom</p>
+<p><strong>Since</strong><br/>
+<p>final update 2020 07 28</p>
+
+
+<p>Executors.newSingleThreadExecutor() 사용을 권장합니다.</p>
+</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">LoginProcess</span><span class="symbol">(</span><span class="symbol">)</span></code>
+<p>회원 로그인 함수를 제공합니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Companion Object Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-h-a-n-d-l-e_-c-u-s-t-o-m_-l-o-g-i-n_-r-e-s-p-o-n-s-e.html">HANDLE_CUSTOM_LOGIN_RESPONSE</a></p>
+</td>
+<td>
+<code><span class="keyword">const</span> <span class="keyword">val </span><span class="identifier">HANDLE_CUSTOM_LOGIN_RESPONSE</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="-h-a-n-d-l-e_-l-o-g-i-n_-r-e-s-p-o-n-s-e.html">HANDLE_LOGIN_RESPONSE</a></p>
+</td>
+<td>
+<code><span class="keyword">const</span> <span class="keyword">val </span><span class="identifier">HANDLE_LOGIN_RESPONSE</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="-h-a-n-d-l-e_-r-e-s-i-g-n_-r-e-s-p-o-n-s-e.html">HANDLE_RESIGN_RESPONSE</a></p>
+</td>
+<td>
+<code><span class="keyword">const</span> <span class="keyword">val </span><span class="identifier">HANDLE_RESIGN_RESPONSE</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="-h-a-n-d-l-e_-u-n-i-t-y_-l-o-g-i-n_-r-e-s-p-o-n-s-e.html">HANDLE_UNITY_LOGIN_RESPONSE</a></p>
+</td>
+<td>
+<code><span class="keyword">const</span> <span class="keyword">val </span><span class="identifier">HANDLE_UNITY_LOGIN_RESPONSE</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="-h-a-n-d-l-e_-u-s-e-r-i-n-f-o_-r-e-s-p-o-n-s-e.html">HANDLE_USERINFO_RESPONSE</a></p>
+</td>
+<td>
+<code><span class="keyword">const</span> <span class="keyword">val </span><span class="identifier">HANDLE_USERINFO_RESPONSE</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Companion Object Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="get-process.html">getProcess</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">getProcess</span><span class="symbol">(</span><span class="identifier" id="com.anibear.andauthclientproject.LoginProcess.Companion$getProcess(android.content.Context, kotlin.String, kotlin.Int, kotlin.String, net.openid.appauth.AuthorizationService)/context">context</span><span class="symbol">:</span>&nbsp;<span class="identifier">Context</span><span class="symbol">, </span><span class="identifier" id="com.anibear.andauthclientproject.LoginProcess.Companion$getProcess(android.content.Context, kotlin.String, kotlin.Int, kotlin.String, net.openid.appauth.AuthorizationService)/guestCode">guestCode</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.anibear.andauthclientproject.LoginProcess.Companion$getProcess(android.content.Context, kotlin.String, kotlin.Int, kotlin.String, net.openid.appauth.AuthorizationService)/color">color</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">, </span><span class="identifier" id="com.anibear.andauthclientproject.LoginProcess.Companion$getProcess(android.content.Context, kotlin.String, kotlin.Int, kotlin.String, net.openid.appauth.AuthorizationService)/intentAction">intentAction</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.anibear.andauthclientproject.LoginProcess.Companion$getProcess(android.content.Context, kotlin.String, kotlin.Int, kotlin.String, net.openid.appauth.AuthorizationService)/authorizationService">authorizationService</span><span class="symbol">:</span>&nbsp;<span class="identifier">AuthorizationService</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>회원 로그인 프로세스입니다.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="handle-authorization-response.html">handleAuthorizationResponse</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">handleAuthorizationResponse</span><span class="symbol">(</span><span class="identifier" id="com.anibear.andauthclientproject.LoginProcess.Companion$handleAuthorizationResponse(android.content.Intent, android.content.Context, net.openid.appauth.AuthorizationService, net.openid.appauth.AuthState, com.anibear.andauthclientproject.interfaces.LoginProcessListener((net.openid.appauth.TokenResponse, net.openid.appauth.AuthorizationException)))/intent">intent</span><span class="symbol">:</span>&nbsp;<span class="identifier">Intent</span><span class="symbol">, </span><span class="identifier" id="com.anibear.andauthclientproject.LoginProcess.Companion$handleAuthorizationResponse(android.content.Intent, android.content.Context, net.openid.appauth.AuthorizationService, net.openid.appauth.AuthState, com.anibear.andauthclientproject.interfaces.LoginProcessListener((net.openid.appauth.TokenResponse, net.openid.appauth.AuthorizationException)))/context">context</span><span class="symbol">:</span>&nbsp;<span class="identifier">Context</span><span class="symbol">, </span><span class="identifier" id="com.anibear.andauthclientproject.LoginProcess.Companion$handleAuthorizationResponse(android.content.Intent, android.content.Context, net.openid.appauth.AuthorizationService, net.openid.appauth.AuthState, com.anibear.andauthclientproject.interfaces.LoginProcessListener((net.openid.appauth.TokenResponse, net.openid.appauth.AuthorizationException)))/authorizationService">authorizationService</span><span class="symbol">:</span>&nbsp;<span class="identifier">AuthorizationService</span><span class="symbol">, </span><span class="identifier" id="com.anibear.andauthclientproject.LoginProcess.Companion$handleAuthorizationResponse(android.content.Intent, android.content.Context, net.openid.appauth.AuthorizationService, net.openid.appauth.AuthState, com.anibear.andauthclientproject.interfaces.LoginProcessListener((net.openid.appauth.TokenResponse, net.openid.appauth.AuthorizationException)))/authState">authState</span><span class="symbol">:</span>&nbsp;<span class="identifier">AuthState</span><span class="symbol">, </span><span class="identifier" id="com.anibear.andauthclientproject.LoginProcess.Companion$handleAuthorizationResponse(android.content.Intent, android.content.Context, net.openid.appauth.AuthorizationService, net.openid.appauth.AuthState, com.anibear.andauthclientproject.interfaces.LoginProcessListener((net.openid.appauth.TokenResponse, net.openid.appauth.AuthorizationException)))/loginProcessListener">loginProcessListener</span><span class="symbol">:</span>&nbsp;<a href="../../com.anibear.andauthclientproject.interfaces/-login-process-listener/index.html"><span class="identifier">LoginProcessListener</span></a><span class="symbol">&lt;</span><span class="identifier">TokenResponse</span><span class="symbol">,</span>&nbsp;<span class="identifier">AuthorizationException</span><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>로그인 프로세스의 결과값을 받습니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

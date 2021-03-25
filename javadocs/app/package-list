@@ -1,0 +1,8 @@
+$dokka.format:html
+$dokka.linkExtension:html
+
+com.anibear.andauthclientproject
+com.anibear.andauthclientproject.interfaces
+com.anibear.andauthclientproject.models
+com.anibear.andauthclientproject.utils
+com.anibear.andauthclientproject.utils.network

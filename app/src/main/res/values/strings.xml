@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">AndroidAuthenticationClient</string>
+    <string name="LoginStr">LOGIN</string>
+    <string name="GuestLoginStr">GUEST LOGIN</string>
+    <string name="PasswordLoginStr">PASSWORD LOGIN</string>
+    <string name="LogoutStr">LOGOUT</string>
+    <string name="RefreshTokenStr">Refresh Token</string>
+    <string name="RevokeTokenStr">Revoke Token</string>
+    <string name="NicknamePageStr">MOVE NICKNAME PAGE</string>
+    <string name="PasswordPageStr">MOVE PASSWORD PAGE</string>
+    <string name="UserPageStr">MOVE USER PAGE</string>
+    <string name="UserInfoStr">User Info</string>
+    <string name="NicknameStr">Nickname</string>
+    <string name="UsernameStr">Username</string>
+    <string name="PasswordStr">Password</string>
+    <string name="UserStr">User</string>
+    <string name="CheckNicknameStr">Check Nickname</string>
+    <string name="ChangeNicknameStr">Change Nickname</string>
+    <string name="CheckPasswordStr">Check Password</string>
+    <string name="ChangePasswordStr">Change Password</string>
+    <string name="UploadURL">Upload URL</string>
+    <string name="UnsubscribeStr">Unsubscribe</string>
+    <string name="GetAccessCodeStr">Get Access Code</string>
+    <string name="DeleteUserProfileStr">Delete User Profile</string>
+    <string name="CompleteUploadUserProfileStr">Complete Upload User Profile</string>
+    <string name="RequestUploadURL">Request Upload URL</string>
+    <string name="RequestUserProfile">Request User Profile</string>
+</resources>
